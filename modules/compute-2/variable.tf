@@ -1,5 +1,10 @@
-resource "azurerm_resource_group" "rsg-name" {
-    name = var.rsgname
-    location = var.location
+variable "rsgname" {
+  default = "rahul-test-tf"
+  type = string
+}
+
+variable "location" {
+    default = "CentralIndia"
+    type = string
   
 }
