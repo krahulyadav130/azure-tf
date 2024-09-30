@@ -1,0 +1,6 @@
+sp.tf
+auth.tf
+.terraform
+**/.terraform/**
+*/.terraform/*
+/.terraform/*
